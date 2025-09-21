@@ -34,17 +34,19 @@
 
 EasyTrade/
 ├── src/
-│ └── com.market/ # DAO, DTO, Servlet 클래스
+│   └── com/market/
+│       ├── dao/        # DAO 클래스
+│       ├── dto/        # DTO 클래스
+│       └── servlet/    # 서블릿 클래스
 ├── WebContent/
-│ ├── jsp/ # JSP 파일
-│ ├── image/ # 이미지 파일
-│ └── css/, js/ # 정적 리소스
-├── WEB-INF/
-│ ├── web.xml # 서블릿 설정
-│ └── views/ # JSP 뷰
+│   ├── jsp/            # JSP 파일
+│   ├── image/          # 이미지 파일
+│   ├── css/            # CSS 파일
+│   └── js/             # JavaScript 파일
+└── WEB-INF/
+    ├── web.xml         # 서블릿 설정
+    └── views/          # JSP 뷰
 
-yaml
-코드 복사
 
 ---
 
